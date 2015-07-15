@@ -23,6 +23,11 @@ atom-text-editor[mini].is-focused {
   to { background-color: null; }
 }
 
+atom-text-editor .cursors, atom-text-editor::shadow .cursors {
+  position: relative;
+  z-index: 9001;
+}
+
 atom-text-editor::shadow .highlighted.selection .region {
   -webkit-animation-name: highlight;
   -webkit-animation-duration: 1s;
@@ -35,7 +40,9 @@ atom-text-editor .gutter, atom-text-editor::shadow .gutter {
   .line-number {
     padding: 0 0 0 15px;
 
-    &.git-line-added {
+    &.git-line-added,
+    &.git-line-modified,
+    &.git-line-removed {
       padding-left: calc(15px - 2px);
     }
   }
