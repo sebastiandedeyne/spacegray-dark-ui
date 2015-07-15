@@ -10,7 +10,7 @@
 
 atom-pane-container {
   atom-pane {
-    background-color: lighten(@app-background-color, 4%);
+    background-color: darken(@tree-background-color, 2%);
 
     &:focus {
       background-color: @app-background-color;
@@ -24,6 +24,13 @@ atom-pane-container {
 
   atom-pane-axis.vertical > * {
     border-bottom: 1px solid @pane-item-border-color;
+    border-bottom: none;
     &:last-child { border-bottom: none; }
+  }
+
+  atom-pane-axis.vertical {
+    > atom-pane-resize-handle {
+      position: absolute !important;
+    }
   }
 }
