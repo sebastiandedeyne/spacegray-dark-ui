@@ -28,3 +28,15 @@ atom-text-editor::shadow .highlighted.selection .region {
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
 }
+
+atom-text-editor .gutter, atom-text-editor::shadow .gutter {
+  color: lighten(@panel-heading-background-color, 10%);
+
+  .line-number {
+    padding: 0 0 0 15px;
+
+    &.git-line-added {
+      padding-left: calc(15px - 2px);
+    }
+  }
+}
