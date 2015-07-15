@@ -23,8 +23,10 @@ atom-text-editor[mini].is-focused {
   to { background-color: null; }
 }
 
-atom-text-editor {
-  padding-top: 5px;
+atom-text-editor, atom-text-editor::shadow {
+  .scroll-view, .gutter-container {
+    padding-top: 5px;
+  }
 }
 
 atom-text-editor .cursors, atom-text-editor::shadow .cursors {
