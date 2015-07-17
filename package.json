@@ -1,8 +1,8 @@
 {
   "name": "spacegray-dark-neue-ui",
   "theme": "ui",
-  "version": "0.12.0",
-  "description": "A better Spacegray port.",
+  "version": "0.0.0",
+  "description": "A better port of the Spacegray Sublime theme by Gadzhi Kharkharov.",
   "license": "MIT",
   "repository": "https://github.com/nathanbuchar/spacegray-dark-ui",
   "engines": {
