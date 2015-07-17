@@ -11,5 +11,5 @@ A better port of the [Spacegray](http://kkga.github.io/spacegray) Sublime theme 
 
 ### Screenshots
 
-![screenshot-1](https://raw.githubusercontent.com/nathanbucharspacegray-dark-ui/master/screenshots/screenshot-1.png)
-![screenshot-2](https://raw.githubusercontent.com/nathanbucharspacegray-dark-ui/master/screenshots/screenshot-2.png)
+![screenshot-1](https://raw.githubusercontent.com/nathanbuchar/spacegray-dark-ui/master/screenshots/screenshot-1.png)
+![screenshot-2](https://raw.githubusercontent.com/nathanbuchar/spacegray-dark-ui/master/screenshots/screenshot-2.png)
