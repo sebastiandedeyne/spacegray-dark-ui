@@ -5,6 +5,14 @@
   "description": "A better port of the Spacegray Sublime theme by Gadzhi Kharkharov.",
   "license": "MIT",
   "repository": "https://github.com/nathanbuchar/spacegray-dark-ui",
+  "keywords": [
+    "syntax",
+    "theme",
+    "space",
+    "spacegray",
+    "dark",
+    "clean"
+  ],
   "engines": {
     "atom": ">0.50.0"
   }
