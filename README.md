@@ -1,4 +1,4 @@
-# Spacegray Dark Neue UI theme
+# Spacegray Sebdd
 
 A better port of the [Spacegray](http://kkga.github.io/spacegray) Sublime theme by Gadzhi Kharkharov. Syntax theme in screenshots: [Peacocks in Space](https://atom.io/themes/peacocks-in-space-syntax)
 

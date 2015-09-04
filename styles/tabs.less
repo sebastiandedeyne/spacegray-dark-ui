@@ -13,6 +13,7 @@
   background: @tree-background-color;
   padding: 0 0 0 0;
   box-sizing: border-box;
+  border-bottom: 3px solid rgba(0, 0, 0, .1);
 
   .tab {
     position: relative;
@@ -64,12 +65,12 @@
 
   .tab.active {
     z-index: 10;
-    line-height: @tab-height - 2px;
+    // line-height: @tab-height - 2px;
     color: @text-color-highlight;
 
-    .title{
+    .title {
       position: relative;
-      top: 1px;
+      // top: 1px;
     }
 
     .close-icon {
@@ -78,7 +79,7 @@
     }
 
     &, &:before {
-      background-color: @tab-background-color-active;
+      // background-color: @tab-background-color-active;
       height: @tab-height;
     }
 
